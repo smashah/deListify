@@ -14,7 +14,7 @@
             "js": ["tether.min.js",
             "drop.min.js",
             "jquery.min.js",
-            "https://cdn.rawgit.com/smashah/deListify/master/hoverer.js"
+            "hoverer.js"
             ],
             "run_at": "document_end",
             "all_frames": true
