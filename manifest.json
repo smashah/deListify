@@ -1,0 +1,29 @@
+{
+    "manifest_version": 2,
+    "name": "deListify",
+    "description": "This extension gives you the barebones of the articles that you really want to, but you know you shouldn't, click.",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*/*"
+            ],
+            "css": [
+                "core.css"
+            ],
+            "js": ["tether.min.js",
+            "drop.min.js",
+            "jquery.min.js",
+                    "hoverer.js"
+            ],
+            "run_at": "document_end",
+            "all_frames": true
+        }
+    ],
+    "permissions": [
+        "activeTab"
+    ],
+    "icons": { "16": "logo16.png",
+           "48": "logo48.png",
+          "128": "logo128.png" }
+}
